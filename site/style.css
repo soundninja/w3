@@ -84,6 +84,10 @@ a {
 
 /* Sizes */
 
+.bloc-xxl {
+    padding: 250px 50px;
+}
+
 .bloc-xl {
     padding: 150px 50px;
 }
@@ -165,11 +169,11 @@ a {
 
 #bloc-3 h3 {
     line-height: 30px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #bloc-3 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -636,4 +640,8 @@ iframe {
 .heroImg {
     position: relative;
     left: -5px;
+}
+
+.privacy {
+    font-size: 12px;
 }
