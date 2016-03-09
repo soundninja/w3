@@ -637,9 +637,14 @@ iframe {
 /* = Ross Additions 
 -------------------------------------------------------------- */
 
+#bloc-0 .header-text {
+    font-size: 36px;
+    line-height: 50px;
+}
+
 .heroImg {
     position: relative;
-    left: -5px;
+    left: -15px;
 }
 
 .privacy {
