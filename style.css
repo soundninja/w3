@@ -14,11 +14,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
 a,
 button {
     outline: none!important;
@@ -28,13 +23,17 @@ button {
 /* Prevent ugly blue glow on chrome and safari */
 
 a {
-    color: lor: #41E690!important;
+    color: rgba(0, 0, 0, .5);
 }
 
 a:hover {
-    color: #41E690!important;
-    text-decoration: none;
+    color: #fff!important;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a.underline {
+    border-bottom: 1px dotted #fff;
 }
 
 
@@ -411,12 +410,20 @@ iframe {
     background-color: #ffffff;
 }
 
+.purpl {
+    background: #02AAB0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #02AAB0, #00CDAC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #02AAB0, #00CDAC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 
 /* Icon colour styles */
 
 .icon-ufo-green {
-    color: #41E690!important;
-    border-color: #41E690!important;
+    margin-top: -5px;
 }
 
 
@@ -634,6 +641,7 @@ iframe {
     }
 }
 
+
 /* = Ross Additions 
 -------------------------------------------------------------- */
 
@@ -644,9 +652,11 @@ iframe {
 
 .heroImg {
     position: relative;
-    left: -15px;
+    left: -12px;
 }
 
 .privacy {
     font-size: 12px;
 }
+
+.goGreen {}
